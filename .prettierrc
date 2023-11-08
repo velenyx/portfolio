@@ -1,4 +1,4 @@
-module.exports = {
+{
   "printWidth": 100,
   "tabWidth": 2,
   "useTabs": false,
@@ -10,5 +10,5 @@ module.exports = {
   "arrowParens": "avoid",
   "jsxSingleQuote": true,
   "endOfLine": "lf",
-   "plugins": [require("prettier-plugin-tailwindcss")]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
