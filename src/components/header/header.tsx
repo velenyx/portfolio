@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { ThemeToggle } from '@/components';
 
 export const Header = () => (
-  <header className='w-full bg-neutral-200 flex justify-between px-4 py-3 items-center dark:bg-gray-900'>
-    <div className='flex gap-5'>
+  <header className='flex w-full items-center justify-between bg-neutral-200 px-4 py-3 dark:bg-gray-900'>
+    <div className='flex gap-5 '>
       <span className='text-2xl'>Velenyx</span>
-      <div className='flex gap-3 items-center'>
+      <div className='flex items-center gap-3'>
         <Link href='/works' className='text-1xl hover:underline'>
           Works
         </Link>
