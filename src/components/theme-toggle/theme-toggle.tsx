@@ -10,7 +10,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui';
+} from '@/shared/ui';
 
 export function ThemeToggle() {
   const { setTheme } = useTheme();
