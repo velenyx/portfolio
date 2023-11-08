@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './styles/globals.css';
 import { ThemeProvider } from '@/app/providers';
+import { Header } from '@/components';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <Header />
+            <main className='bg-neutral-100 dark:bg-gray-700'>{children}</main>
           </ThemeProvider>
         </body>
       </html>
