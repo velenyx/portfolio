@@ -42,7 +42,7 @@ jobs:
       - name: Lint and Format 🛫
         run: |
           yarn prettier:check
-          lint:eslint:check
+          yarn lint:eslint:check
 
       - name: Build project 🏗️
         run: yarn build
