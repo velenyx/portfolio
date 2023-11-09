@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             disableTransitionOnChange
           >
             <Header />
-            <main className='bg-neutral-100 dark:bg-gray-700'>{children}</main>
+            <main className='bg-neutral-100 dark:bg-zinc-800'>{children}</main>
           </ThemeProvider>
         </body>
       </html>
