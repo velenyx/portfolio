@@ -66,15 +66,9 @@
   }
 }
 
-@layer utilities {
-  .text-2xl {
-    font-size: 2.5rem;
-  }
-}
-
 @layer base {
   * {
-    @apply border-border font-rubik;
+    @apply border-border font-rubik text-gray-700 dark:text-slate-50;
   }
   body {
     @apply bg-background text-foreground;
