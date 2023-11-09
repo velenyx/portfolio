@@ -1,0 +1,1 @@
+export { FootprintIcon } from './footprint';

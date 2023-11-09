@@ -8,12 +8,12 @@ export const Header = () => (
       <div className='flex items-center items-center gap-4'>
         <Logo />
         <div className='flex items-center gap-3'>
-          <Link href='/works' className='unde p-2 hover:underline'>
+          <Link href='/works' className='unde p-2 underline-offset-4 hover:underline'>
             Works
           </Link>
           <Link
             href='https://github.com/velenyx/velenyx-website'
-            className='text-1xl hover:underline'
+            className='text-1xl underline-offset-4 hover:underline'
           >
             Source
           </Link>
