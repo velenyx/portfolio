@@ -7,14 +7,14 @@ import { BackgroundAnimation, Header } from '@/components';
 const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' });
 
 export const metadata: Metadata = {
-  title: "Create Nexert App',\n" + "  description: 'Genated by create next app",
+  title: 'Home - Dmitriy Sivritkin',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <html lang='en'>
-        <body className={rubik.variable}>
+        <body className={`${rubik.variable} bg-[#f0e7db] dark:bg-zinc-800`}>
           <ThemeProvider
             attribute='class'
             defaultTheme='system'
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             disableTransitionOnChange
           >
             <Header />
-            <main className='bg-[#f0e7db] dark:bg-zinc-800'>{children}</main>
+            <main>{children}</main>
             <BackgroundAnimation />
           </ThemeProvider>
         </body>
