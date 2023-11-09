@@ -3,6 +3,16 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackagePatterns": ["*"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
   "baseBranches": ["main"],
   "automerge": true,
   "automergeType": "pr",
