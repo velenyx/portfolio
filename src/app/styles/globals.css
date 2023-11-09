@@ -66,6 +66,12 @@
   }
 }
 
+@layer utilities {
+  .icon-theme-fill {
+    @apply fill-black dark:fill-white;
+  }
+}
+
 @layer base {
   * {
     @apply border-border font-rubik text-gray-950 dark:text-slate-50;
