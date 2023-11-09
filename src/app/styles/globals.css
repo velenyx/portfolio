@@ -68,7 +68,7 @@
 
 @layer base {
   * {
-    @apply border-border font-rubik text-gray-700 dark:text-slate-50;
+    @apply border-border font-rubik text-gray-950 dark:text-slate-50;
   }
   body {
     @apply bg-background text-foreground;

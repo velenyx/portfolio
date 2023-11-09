@@ -26,7 +26,7 @@ export const BackgroundAnimation = () => {
   const options = {
     fullScreen: {
       enable: true,
-      zIndex: 0,
+      zIndex: -1,
     },
     particles: {
       groups: {

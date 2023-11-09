@@ -14,7 +14,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <>
       <html lang='en'>
-        <body className={`${rubik.variable} bg-[#f0e7db] dark:bg-zinc-800`}>
+        <body
+          className={`${rubik.variable} flex  flex-col items-center bg-orange-100 dark:bg-zinc-900`}
+        >
           <ThemeProvider
             attribute='class'
             defaultTheme='system'
@@ -22,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             disableTransitionOnChange
           >
             <Header />
-            <main>{children}</main>
+            <main className=' w-full max-w-[60ch] px-3 py-16 pt-20'>{children}</main>
             <BackgroundAnimation />
           </ThemeProvider>
         </body>
