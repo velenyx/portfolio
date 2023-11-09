@@ -29,23 +29,20 @@ jobs:
       - name: Cache Yarn dependencies
         uses: actions/cache@v3.2.2
         with:
-          path: ./client/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('./client/yarn.lock') }}
+          path: ./node_modules
+          key: ${{ runner.os }}-yarn-${{ hashFiles('./yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
 
       - name: Install yarn and dependencies 🎻
-        working-directory: ./client
         run: |
           npm install --global yarn
           yarn install --immutable
 
       - name: Lint and Format 🛫
-        working-directory: ./client
         run: |
           yarn prettier:check
           lint:eslint:check
 
       - name: Build project 🏗️
-        working-directory: ./client
         run: yarn build
