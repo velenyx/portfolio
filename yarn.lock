@@ -313,14 +313,14 @@ __metadata:
   linkType: hard
 
 "@floating-ui/react-dom@npm:^2.0.0":
-  version: 2.0.3
-  resolution: "@floating-ui/react-dom@npm:2.0.3"
+  version: 2.0.4
+  resolution: "@floating-ui/react-dom@npm:2.0.4"
   dependencies:
     "@floating-ui/dom": "npm:^1.5.1"
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 786dbec853d4f1fb74fcdb2599d6e4857b8cf641a54935a6aae3e083f4cd15bf27530441c35b0ed4216e1b309de806857c7a148e189967e3d2efaf9bac6f8a64
+  checksum: 5d597a7939e484428452cee775884f6c14055783d811a1abedf03151eb8825ecf42a544553efecdc502f30ca2a6b3e6630485367c39473d259e74f5f1331bc0a
   languageName: node
   linkType: hard
 
@@ -2035,9 +2035,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.535":
-  version: 1.4.578
-  resolution: "electron-to-chromium@npm:1.4.578"
-  checksum: 6b777e4a0e585da8b73b40bb8fd04b8867def5b5795b564cda8fa7b98912c68e4ecea24ffd5d928cdeedced5e2a7711b046ff69f09df082c1cc7b55b9d0cfa3a
+  version: 1.4.580
+  resolution: "electron-to-chromium@npm:1.4.580"
+  checksum: b0aa56873c8be54b7b34ce30551fda6872f2571d40080e8f3ceb779b48f3f1ab146b55896add89bf9629dde29dc0603bc1df6251d9052f3c918140669422047a
   languageName: node
   linkType: hard
 
