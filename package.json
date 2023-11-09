@@ -28,8 +28,10 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-particles": "^2.12.2",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^2.12.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",

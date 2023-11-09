@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
 import './styles/globals.css';
 import { ThemeProvider } from '@/app/providers';
-import { Header } from '@/components';
+import { BackgroundAnimation, Header } from '@/components';
 
 const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' });
 
@@ -22,7 +22,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             disableTransitionOnChange
           >
             <Header />
-            <main className='bg-neutral-100 dark:bg-zinc-800'>{children}</main>
+            <main className='bg-[#f0e7db] dark:bg-zinc-800'>{children}</main>
+            <BackgroundAnimation />
           </ThemeProvider>
         </body>
       </html>
