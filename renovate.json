@@ -1,3 +1,21 @@
 {
-  "extends": ["config:base"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "baseBranches": ["main"],
+  "automerge": true,
+  "automergeType": "pr",
+  "prConcurrentLimit": 10,
+  "major": {
+    "automerge": false
+  },
+  "labels": ["dependencies", "renovate"],
+  "schedule": ["every weekday"],
+  "prHourlyLimit": 10,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am on monday"]
+  },
+  "stabilityDays": 12
 }
