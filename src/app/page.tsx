@@ -11,9 +11,9 @@ export default function Home() {
         </p>
       </div>
       <Image
-        width='110'
-        height='110'
-        className='ml-4 rounded-full border-2 border-neutral-100 object-cover'
+        width='100'
+        height='100'
+        className='ml-6 rounded-full border-2 border-neutral-100 object-cover'
         src='/images/me.jpg'
         alt="Sivritkin's Dmitriy Image"
       />
