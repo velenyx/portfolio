@@ -44,6 +44,9 @@ jobs:
           yarn prettier:check
           yarn lint:eslint:check
 
+      - name: Unit Testing 💀
+        run: yarn test:unit
+
       - name: Build project 🏗️
         run: yarn build
 #  deploy:
