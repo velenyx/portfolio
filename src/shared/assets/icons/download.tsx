@@ -3,7 +3,7 @@ export const DownloadIcon = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns='http://www.w3.org/2000/svg'
     width='16'
     height='16'
-    fill='#000000'
+    className='fill-primary-foreground'
     viewBox='0 0 256 256'
     {...props}
   >

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { TypingText } from '@/components';
 import { Button } from '@/shared/ui';
 import { CaretRightIcon, DownloadIcon } from '@/shared/assets';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -34,12 +35,16 @@ export default function Home() {
           backend development for applications
         </p>
         <div className='flex items-center justify-center gap-12 pt-3'>
-          <Button className='flex items-center justify-center gap-2 bg-green-500 transition-colors hover:bg-green-400 dark:bg-emerald-500 dark:hover:bg-emerald-400'>
-            Download CV <DownloadIcon />
-          </Button>
-          <Button className='flex items-center justify-center gap-2 bg-teal-500 transition-colors hover:bg-teal-400 dark:bg-teal-400 dark:hover:bg-teal-300'>
-            My Works <CaretRightIcon />
-          </Button>
+          <Link href='/cv.pdf'>
+            <Button className='flex items-center justify-center gap-2 bg-green-500 transition-colors hover:bg-green-400 dark:bg-emerald-500 dark:hover:bg-emerald-400'>
+              Download CV <DownloadIcon />
+            </Button>
+          </Link>
+          <Link href='/works'>
+            <Button className='flex items-center justify-center gap-2 bg-teal-500 transition-colors hover:bg-teal-400 dark:bg-teal-400 dark:hover:bg-teal-300'>
+              My Works <CaretRightIcon />
+            </Button>
+          </Link>
         </div>
       </section>
     </>
