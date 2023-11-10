@@ -1,1 +1,1 @@
-export * from './typing-section';
+export * from './typing-text';
