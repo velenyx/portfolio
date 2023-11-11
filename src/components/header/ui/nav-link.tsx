@@ -10,6 +10,6 @@ export const NavLink: React.FC<NavLinkProps> = ({ href, label, icon, external = 
     target={external ? '_blank' : '_self'}
   >
     {icon}
-    {label}
+    <span itemProp='name'>{label}</span>
   </Link>
 );

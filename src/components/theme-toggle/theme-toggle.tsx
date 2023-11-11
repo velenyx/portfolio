@@ -21,6 +21,7 @@ export function ThemeToggle() {
         <Button
           variant='outline'
           size='icon'
+          aria-label='Toggle theme'
           className='bg-orange-400  hover:bg-orange-300 dark:bg-purple-700 dark:hover:bg-purple-800'
         >
           <Sun className='h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />

@@ -12,24 +12,24 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <html lang='en'>
-        <body
-          className={`${rubik.variable} flex min-h-full flex-col items-center bg-orange-100 bg-opacity-70 dark:bg-zinc-900`}
+    <html lang='en' itemScope itemType='http://schema.org/WebPage'>
+      <body
+        className={`${rubik.variable} flex min-h-full flex-col items-center bg-orange-100 bg-opacity-70 dark:bg-zinc-900`}
+        itemScope
+        itemType='http://schema.org/WebSite'
+      >
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='system'
+          enableSystem
+          disableTransitionOnChange
         >
-          <ThemeProvider
-            attribute='class'
-            defaultTheme='system'
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Header />
-            <div className='w-full max-w-prose flex-auto px-4 pt-20'>{children}</div>
-            <Footer />
-            <BackgroundAnimation />
-          </ThemeProvider>
-        </body>
-      </html>
-    </>
+          <Header />
+          <main className='w-full max-w-prose flex-auto px-4 pt-20'>{children}</main>
+          <Footer />
+          <BackgroundAnimation />
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }

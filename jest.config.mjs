@@ -11,7 +11,7 @@ const config = {
   moduleNameMapper: {
     "@/(.*)": "<rootDir>/src/$1",
   },
-  collectCoverage: true,
+  // collectCoverage: true,
   collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.d.ts", '!src/shared/assets/**', '!src/**/index.ts'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testMatch: [
@@ -22,7 +22,7 @@ const config = {
     'js', 'jsx', 'ts', 'tsx', 'json', 'node'
   ],
   resetMocks: true,
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
 }
 
 export default createJestConfig(config)
