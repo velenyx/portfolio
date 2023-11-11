@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             disableTransitionOnChange
           >
             <Header />
-            <div className='w-full max-w-[60ch] flex-auto px-3 pt-20'>{children}</div>
+            <div className='w-full max-w-prose flex-auto px-4 pt-20'>{children}</div>
             <Footer />
             <BackgroundAnimation />
           </ThemeProvider>
