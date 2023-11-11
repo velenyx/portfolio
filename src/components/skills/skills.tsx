@@ -1,9 +1,13 @@
 import { skillsConfig } from './skills-config';
 import { cn } from '@/shared/libs';
 
-export const Skills = () => {
+interface SkillsProps {
+  className?: string;
+}
+
+export const Skills: React.FC<SkillsProps> = ({ className }) => {
   return (
-    <section aria-labelledby='skills-heading'>
+    <section aria-labelledby='skills-heading' className={className}>
       <h2 id='skills-heading' className='pb-1 pt-2 text-2xl font-bold'>
         Skills
       </h2>

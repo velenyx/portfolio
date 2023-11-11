@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className='flex animate-slide-up items-center delay-200'>
+      <div className='flex animate-slide-up items-center duration-200'>
         <div>
           <h1 className='pb-2 text-4xl font-bold'>Dmitriy Sivritkin</h1>
           <p>
@@ -24,8 +24,8 @@ export default function Home() {
           alt="Sivritkin's Dmitriy Image"
         />
       </div>
-      <TypingText className='my-5' />
-      <section>
+      <TypingText className='my-5 animate-slide-up duration-300' />
+      <section className='duration-400 animate-slide-up'>
         <h2 className='pt-2 text-2xl font-bold'>Work</h2>
         <p className='indent-4'>
           Dmitriy is a young full-stack developer based in Vladimir with a passion for building
@@ -47,7 +47,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <Skills />
+      <Skills className='animate-slide-up duration-500' />
     </>
   );
 }
