@@ -1,11 +1,11 @@
 import { skillsConfig } from './skills-config';
 import { cn } from '@/shared/libs';
 
-interface SkillsProps {
+interface SkillsSectionProps {
   className?: string;
 }
 
-export const Skills: React.FC<SkillsProps> = ({ className }) => {
+export const SkillsSection: React.FC<SkillsSectionProps> = ({ className }) => {
   return (
     <section
       itemScope
