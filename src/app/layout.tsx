@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <>
       <html lang='en'>
         <body
-          className={`${rubik.variable} flex  flex-col items-center bg-orange-100 dark:bg-zinc-900`}
+          className={`${rubik.variable} flex flex-col items-center bg-orange-100 bg-opacity-70 dark:bg-zinc-900`}
         >
           <ThemeProvider
             attribute='class'

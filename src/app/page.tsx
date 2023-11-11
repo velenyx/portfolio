@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { TypingText } from '@/components';
+import { Skills, TypingText } from '@/components';
 import { Button } from '@/shared/ui';
 import { CaretRightIcon, DownloadIcon } from '@/shared/assets';
 import Link from 'next/link';
@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className='flex items-center'>
+      <div className='flex animate-slide-up items-center delay-200'>
         <div>
           <h1 className='pb-2 text-4xl font-bold'>Dmitriy Sivritkin</h1>
           <p>
@@ -47,6 +47,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <Skills />
     </>
   );
 }
