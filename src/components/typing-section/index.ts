@@ -1,1 +1,1 @@
-export * from './typing-text';
+export { TypingText } from './typing-text';

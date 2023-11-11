@@ -36,6 +36,16 @@ export const skillsConfig: SkillsConfig[] = [
         name: 'CSS-SCSS',
         favorite: true,
       },
+      {
+        name: 'HTML/HTML5',
+      },
+      {
+        name: 'Adaptive-cross-browser layout',
+      },
+      {
+        name: 'NextJS',
+        favorite: true,
+      },
     ],
   },
   {
