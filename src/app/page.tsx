@@ -7,8 +7,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className='flex animate-slide-up flex-wrap items-center justify-center duration-200 sm:flex-nowrap'>
-        <div>
+      <section className='flex animate-slide-up flex-wrap items-center justify-center duration-200 sm:flex-nowrap'>
+        <div itemScope itemType='http://schema.org/Person'>
           <h1 className='pb-2 text-4xl font-bold'>Dmitriy Sivritkin</h1>
           <p>
             🌌 I am Frontend Developer (TypeScript, React, Next). Сaffeine converter to React&apos;s
@@ -23,9 +23,15 @@ export default function Home() {
           src='/images/me.jpg'
           alt="Sivritkin's Dmitriy Image"
         />
-      </div>
+      </section>
+
       <TypingText className='my-5 animate-slide-up duration-300' />
-      <section className='duration-400 animate-slide-up'>
+
+      <section
+        itemScope
+        itemType='http://schema.org/CreativeWork'
+        className='duration-400 animate-slide-up'
+      >
         <h2 className='pt-2 text-2xl font-bold'>Work</h2>
         <p className='indent-4'>
           Dmitriy is a young full-stack developer based in Vladimir with a passion for building
@@ -36,17 +42,26 @@ export default function Home() {
         </p>
         <div className='flex items-center justify-center gap-12 pt-3'>
           <Link href='/cv.pdf'>
-            <Button className='flex items-center justify-center gap-2 bg-green-500 transition-colors hover:bg-green-400 dark:bg-emerald-500 dark:hover:bg-emerald-400'>
+            <Button
+              itemScope
+              itemType='http://schema.org/DownloadAction'
+              className='flex items-center justify-center gap-2 bg-green-500 transition-colors hover:bg-green-400 dark:bg-emerald-500 dark:hover:bg-emerald-400'
+            >
               Download CV <DownloadIcon />
             </Button>
           </Link>
           <Link href='/works'>
-            <Button className='flex items-center justify-center gap-2 bg-teal-500 transition-colors hover:bg-teal-400 dark:bg-teal-400 dark:hover:bg-teal-300'>
+            <Button
+              itemScope
+              itemType='http://schema.org/ViewAction'
+              className='flex items-center justify-center gap-2 bg-teal-500 transition-colors hover:bg-teal-400 dark:bg-teal-400 dark:hover:bg-teal-300'
+            >
               My Works <CaretRightIcon />
             </Button>
           </Link>
         </div>
       </section>
+
       <Skills className='animate-slide-up duration-500' />
     </>
   );

@@ -7,7 +7,12 @@ interface SkillsProps {
 
 export const Skills: React.FC<SkillsProps> = ({ className }) => {
   return (
-    <section aria-labelledby='skills-heading' className={className}>
+    <section
+      itemScope
+      itemType='http://schema.org/Specialty'
+      aria-labelledby='skills-heading'
+      className={className}
+    >
       <h2 id='skills-heading' className='pb-1 pt-2 text-2xl font-bold'>
         Skills
       </h2>
