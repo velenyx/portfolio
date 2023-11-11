@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <div className='flex animate-slide-up items-center duration-200'>
+      <div className='flex animate-slide-up flex-wrap items-center justify-center duration-200 sm:flex-nowrap'>
         <div>
           <h1 className='pb-2 text-4xl font-bold'>Dmitriy Sivritkin</h1>
           <p>
@@ -19,7 +19,7 @@ export default function Home() {
         <Image
           width='100'
           height='100'
-          className='ml-6 aspect-square flex-shrink-0 select-none rounded-full border-2 border-neutral-100 object-cover'
+          className='ml-6 mt-2 aspect-square flex-shrink-0 select-none rounded-full border-2 border-neutral-100 object-cover'
           src='/images/me.jpg'
           alt="Sivritkin's Dmitriy Image"
         />
