@@ -1,4 +1,4 @@
-import type { Preview, StoryFn } from '@storybook/react';
+import type { Preview, StoryContext, StoryFn } from '@storybook/react';
 import { withThemeByClassName } from '@storybook/addon-themes';
 import '../src/app/styles/globals.css';
 import './font.css';
@@ -69,7 +69,29 @@ const preview: Preview = {
   },
 };
 
+const globalDecorator = (StoryFn: StoryFn, context: StoryContext) => {
+  const theme = context.parameters.theme || context.globals.theme;
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100vw',
+        height: '100vh',
+        padding: '12px',
+        overflow: 'auto',
+        backgroundColor:
+          theme == null || theme.length === 0 || theme === 'light' ? '#ffedd5b3' : '#18181b',
+      }}
+    >
+      <StoryFn />
+    </div>
+  );
+};
+
 export const decorators = [
+  globalDecorator,
   withThemeByClassName({
     themes: {
       light: 'light',
@@ -78,7 +100,7 @@ export const decorators = [
     defaultTheme: 'light',
   }),
   (Story: StoryFn) => (
-    <div className='m-2.5 flex h-full w-full flex-col items-start justify-start gap-5 bg-neutral-100 dark:bg-gray-700'>
+    <div className='m-2.5 flex h-full w-full flex-col items-start justify-start gap-5'>
       <Story />
     </div>
   ),
