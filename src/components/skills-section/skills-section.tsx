@@ -1,5 +1,6 @@
-import { skillsConfig } from './skills-config';
 import { cn } from '@/shared/libs';
+
+import { skillsConfig } from './skills-config';
 
 interface SkillsSectionProps {
   className?: string;

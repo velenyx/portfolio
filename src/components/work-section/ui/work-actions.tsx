@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { Button } from '@/shared/ui';
+
 import { CaretRightIcon, DownloadIcon } from '@/shared/assets';
+import { Button } from '@/shared/ui';
 
 export const WorkActions = () => (
   <div className='flex items-center justify-center gap-12 pt-3'>

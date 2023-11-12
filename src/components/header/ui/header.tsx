@@ -1,9 +1,13 @@
-import { ThemeToggle } from '@/components';
-import { Logo } from '@/shared/ui';
 import * as React from 'react';
-import { NavLink } from './nav-link';
+
+import { ThemeToggle } from '@/components';
+
+import { Logo } from '@/shared/ui';
+
 import { headerConfig } from '../header-config';
+
 import { BurgerMenu } from './burger-menu';
+import { NavLink } from './nav-link';
 
 export const Header = () => {
   return (

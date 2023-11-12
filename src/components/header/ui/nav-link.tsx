@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import { NavigationLink } from '../header-config';
 
 type NavLinkProps = NavigationLink;

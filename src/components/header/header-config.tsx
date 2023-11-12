@@ -1,5 +1,6 @@
-import { GithubIcon } from '@/shared/assets';
 import * as React from 'react';
+
+import { GithubIcon } from '@/shared/assets';
 
 export interface NavigationLink {
   href: string;

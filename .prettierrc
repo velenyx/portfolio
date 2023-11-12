@@ -10,5 +10,16 @@
   "arrowParens": "avoid",
   "jsxSingleQuote": true,
   "endOfLine": "lf",
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss", "@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/components",
+    "^@/shared/assets/(.*)$",
+    "^@/shared/(.*)$",
+    "^@/(.*)$",
+    "^../(.*)$",
+    "^./(.*)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { TypeAnimation } from 'react-type-animation';
+
 import { cn } from '@/shared/libs';
 
 interface TypingSectionProps {

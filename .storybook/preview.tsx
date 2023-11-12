@@ -1,6 +1,8 @@
-import type { Preview, StoryContext, StoryFn } from '@storybook/react';
 import { withThemeByClassName } from '@storybook/addon-themes';
+import type { Preview, StoryContext, StoryFn } from '@storybook/react';
+
 import '../src/app/styles/globals.css';
+
 import './font.css';
 
 const preview: Preview = {

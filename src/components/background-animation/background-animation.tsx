@@ -1,9 +1,9 @@
 'use client';
 
+import { useTheme } from 'next-themes';
 import React, { useCallback } from 'react';
 import { Particles } from 'react-particles';
 import { loadFull } from 'tsparticles';
-import { useTheme } from 'next-themes';
 import { Container, Engine } from 'tsparticles-engine';
 
 export const BackgroundAnimation = () => {

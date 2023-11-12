@@ -1,5 +1,9 @@
 'use client';
 
+import * as React from 'react';
+
+import { ListIcon } from '@/shared/assets';
+import { useMediaQuery } from '@/shared/libs';
 import {
   Button,
   DropdownMenu,
@@ -7,11 +11,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/shared/ui';
-import { ListIcon } from '@/shared/assets';
-import { NavLink } from '@/components/header/ui/nav-link';
-import { headerConfig } from '@/components/header/header-config';
-import * as React from 'react';
-import { useMediaQuery } from '@/shared/libs';
+
+import { headerConfig } from '../header-config';
+
+import { NavLink } from './nav-link';
 
 export const BurgerMenu = () => {
   const isMobile = useMediaQuery('(max-width: 640px)', true, { getInitialValueInEffect: false });

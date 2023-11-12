@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
-import './styles/globals.css';
-import { ThemeProvider } from '@/app/providers';
+
 import { BackgroundAnimation, Footer, Header } from '@/components';
+
+import { ThemeProvider } from '@/app/providers';
+
+import './styles/globals.css';
 
 const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' });
 
