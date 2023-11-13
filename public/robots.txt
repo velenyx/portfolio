@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Disallow: /_next/static/
+
+Sitemap: https://velenyx.tech/sitemap.xml
