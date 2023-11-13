@@ -1,0 +1,36 @@
+name: Release 💣
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Frontend checker, will punish for bad code 🪓😵‍💫"]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  release:
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    name: Create a new release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "yarn"
+      - run: yarn install --frozen-lockfile
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_SECRET }}
+        run: npx semantic-release
