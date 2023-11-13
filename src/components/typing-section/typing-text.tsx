@@ -10,9 +10,7 @@ interface TypingSectionProps {
 
 export const TypingText: React.FC<TypingSectionProps> = ({ className }) => {
   return (
-    <aside
-      className={cn('items-center rounded-lg bg-yellow-50 p-3 dark:bg-neutral-600', className)}
-    >
+    <div className={cn('items-center rounded-lg bg-yellow-50 p-3 dark:bg-neutral-600', className)}>
       <TypeAnimation
         sequence={[
           "👋 Hello, I'm a fullstack developer based in Russia.",
@@ -27,6 +25,6 @@ export const TypingText: React.FC<TypingSectionProps> = ({ className }) => {
         cursor={true}
         repeat={Infinity}
       />
-    </aside>
+    </div>
   );
 };
