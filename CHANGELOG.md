@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/velenyx/velenyx-website/compare/v1.1.0...v1.2.0) (2023-11-14)
+
+
+### Features
+
+* :package: add `@next/bundle-analyzer` package ([8493f78](https://github.com/velenyx/velenyx-website/commit/8493f782ce670fe64269d4e0dbff15ab9139c10b))
+* **CI:** ✨ Implement Next.js Bundle Analysis in GitHub Actions ([70ac1a9](https://github.com/velenyx/velenyx-website/commit/70ac1a9ec426d090cff7b18232611362d95abcd7))
+
 # [1.1.0](https://github.com/velenyx/velenyx-website/compare/v1.0.0...v1.1.0) (2023-11-14)
 
 
