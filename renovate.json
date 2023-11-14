@@ -12,6 +12,7 @@
   "vulnerabilityAlerts": {
     "enabled": true
   },
+  "osvVulnerabilityAlerts": true,
   "baseBranches": ["main"],
   "automerge": true,
   "automergeType": "pr",
@@ -19,12 +20,5 @@
   "major": {
     "automerge": false
   },
-  "labels": ["dependencies", "renovate"],
-  "schedule": ["every weekday"],
-  "prHourlyLimit": 10,
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["before 5am on monday"]
-  },
-  "stabilityDays": 12
+  "labels": ["dependencies", "renovate"]
 }
