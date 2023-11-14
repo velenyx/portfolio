@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/velenyx/velenyx-website/compare/v1.0.0...v1.1.0) (2023-11-14)
+
+
+### Features
+
+* :technologist: add story for `personal-section.stories` ([f5b96fd](https://github.com/velenyx/velenyx-website/commit/f5b96fddf56b33c3cbc23c4420b7302f080f15ca))
+* :wrench: Update renovate.json configuration for automated dependency updates ([80ff0c7](https://github.com/velenyx/velenyx-website/commit/80ff0c7c9f60882c0eaa102c0a26552e88d06980))
+
 # 1.0.0 (2023-11-13)
 
 
