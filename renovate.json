@@ -9,10 +9,6 @@
       "matchPackagePatterns": ["*"]
     }
   ],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  },
-  "osvVulnerabilityAlerts": true,
   "baseBranches": ["main"],
   "automerge": true,
   "automergeType": "pr",
