@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/velenyx/velenyx-website/compare/v1.3.0...v1.4.0) (2023-12-13)
+
+
+### Features
+
+* ✨ add work section ([5c10773](https://github.com/velenyx/velenyx-website/commit/5c10773908b509c448839b0a2942fcefa4fb32fa))
+
 # [1.3.0](https://github.com/velenyx/velenyx-website/compare/v1.2.0...v1.3.0) (2023-12-13)
 
 
