@@ -28,9 +28,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           disableTransitionOnChange
         >
           <Header />
-          <main className='w-full max-w-prose flex-auto px-4 pt-20'>{children}</main>
+          <main className='w-full max-w-prose flex-auto px-4 pt-20'>
+            {children}
+            <BackgroundAnimation />
+          </main>
           <Footer />
-          <BackgroundAnimation />
         </ThemeProvider>
       </body>
     </html>

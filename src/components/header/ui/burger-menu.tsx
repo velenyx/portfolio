@@ -17,7 +17,7 @@ import { headerConfig } from '../header-config';
 import { NavLink } from './nav-link';
 
 export const BurgerMenu = () => {
-  const isMobile = useMediaQuery('(max-width: 640px)', true, { getInitialValueInEffect: false });
+  const isMobile = useMediaQuery('(max-width: 640px)', false, { getInitialValueInEffect: false });
 
   return (
     <>
