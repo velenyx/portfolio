@@ -6,3 +6,4 @@ export * from './typing-section';
 export * from './skills-section';
 export * from './work-section';
 export * from './personal-introduction-section';
+export * from './work-item';

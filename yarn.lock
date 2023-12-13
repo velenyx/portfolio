@@ -16071,6 +16071,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-parallax-tilt@npm:^1.7.177":
+  version: 1.7.177
+  resolution: "react-parallax-tilt@npm:1.7.177"
+  peerDependencies:
+    react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 6a0d730bd2af798ebb3e369b3b230a59597d5fe02bbc128d4af08acd6a73787be4c32a8ab350a1fd4f04754edc80729bc9364f0012ea74acff0d3ab9dee45000
+  languageName: node
+  linkType: hard
+
 "react-particles@npm:^2.12.2":
   version: 2.12.2
   resolution: "react-particles@npm:2.12.2"
@@ -19298,6 +19308,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.5.7"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-parallax-tilt: "npm:^1.7.177"
     react-particles: "npm:^2.12.2"
     react-type-animation: "npm:^3.2.0"
     semantic-release: "npm:^22.0.7"

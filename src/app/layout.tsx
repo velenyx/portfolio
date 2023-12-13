@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
 
-import { Footer, Header } from '@/components';
+import { BackgroundAnimation, Footer, Header } from '@/components';
 
 import { ThemeProvider } from '@/app/providers';
 
@@ -30,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main className='w-full max-w-prose flex-auto px-4 pt-20'>{children}</main>
           <Footer />
+          <BackgroundAnimation />
         </ThemeProvider>
       </body>
     </html>
