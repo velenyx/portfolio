@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/velenyx/velenyx-website/compare/v1.4.0...v1.5.0) (2023-12-13)
+
+
+### Features
+
+* ✨ update main page ([2fb6525](https://github.com/velenyx/velenyx-website/commit/2fb6525c1478466d795d677dd0a10d1e9d1a3508))
+
 # [1.4.0](https://github.com/velenyx/velenyx-website/compare/v1.3.0...v1.4.0) (2023-12-13)
 
 
