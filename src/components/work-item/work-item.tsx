@@ -31,6 +31,8 @@ export const WorkItem: React.FC<WorkItemProps> = ({ work }) => {
         className='relative flex flex-col  rounded-lg p-5 gap-4 border-2 border-solid border-opacity-25 border-neutral-100'
       >
         <Image
+          blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8cfv2AgAIkQNAWuMwqAAAAABJRU5ErkJggg=='
+          placeholder='blur'
           src={work.thumbnail}
           alt={`Preview for ${work.title}`}
           width='0'

@@ -14,7 +14,7 @@ const projects = [
 
 const WorksPage = () => {
   return (
-    <section className='h-full'>
+    <section className='h-full duration-200 animate-slide-up'>
       <h2 className='text-start text-3xl font-semibold'>My works:</h2>
       <div className='h-full flex flex-col items-center justify-center -m-6'>
         {projects.map((project, index) => (

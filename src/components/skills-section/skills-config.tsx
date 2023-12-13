@@ -37,10 +37,7 @@ export const skillsConfig: SkillsConfig[] = [
         favorite: true,
       },
       {
-        name: 'HTML/HTML5',
-      },
-      {
-        name: 'Adaptive-cross-browser layout',
+        name: 'HTML4/HTML5',
       },
       {
         name: 'NextJS',
@@ -65,6 +62,9 @@ export const skillsConfig: SkillsConfig[] = [
         name: 'NestJS',
         favorite: true,
       },
+      {
+        name: 'PostgreSQL',
+      },
     ],
   },
   {
@@ -88,6 +88,9 @@ export const skillsConfig: SkillsConfig[] = [
       },
       {
         name: 'OOP',
+      },
+      {
+        name: 'FP',
       },
     ],
   },

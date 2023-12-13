@@ -4,7 +4,7 @@ import { CaretRightIcon, DownloadIcon } from '@/shared/assets';
 import { Button } from '@/shared/ui';
 
 export const WorkActions = () => (
-  <div className='flex items-center justify-center gap-12 pt-3'>
+  <div className='flex items-center justify-center gap-12 pt-4'>
     <Link href='/cv.pdf'>
       <Button
         itemScope
