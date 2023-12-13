@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/velenyx/velenyx-website/compare/v1.2.0...v1.3.0) (2023-12-13)
+
+
+### Features
+
+* ✨ add BG animation, `react-parallax-tilt` package 📦 ([1bc4778](https://github.com/velenyx/velenyx-website/commit/1bc4778d93e637d43cd9026971713ca9848d5789))
+
 # [1.2.0](https://github.com/velenyx/velenyx-website/compare/v1.1.0...v1.2.0) (2023-11-14)
 
 
