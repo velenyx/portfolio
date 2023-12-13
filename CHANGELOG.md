@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/velenyx/velenyx-website/compare/v1.6.0...v1.7.0) (2023-12-13)
+
+
+### Features
+
+* ✨ update skills config ([e546d7e](https://github.com/velenyx/velenyx-website/commit/e546d7e10a2d0a62dacad7753a91a2417790acb5))
+
 # [1.6.0](https://github.com/velenyx/velenyx-website/compare/v1.5.0...v1.6.0) (2023-12-13)
 
 
