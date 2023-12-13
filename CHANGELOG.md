@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/velenyx/velenyx-website/compare/v1.5.0...v1.6.0) (2023-12-13)
+
+
+### Features
+
+* ✨ update burger and layout ([ecefcb9](https://github.com/velenyx/velenyx-website/commit/ecefcb97f5947672b016270e01dbc03e76523aff))
+
 # [1.5.0](https://github.com/velenyx/velenyx-website/compare/v1.4.0...v1.5.0) (2023-12-13)
 
 
