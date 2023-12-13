@@ -3,13 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [
-    {
-      "enabled": false,
-      "matchPackagePatterns": ["*"]
-    }
-  ],
-  "baseBranches": ["main"],
   "automerge": true,
   "automergeType": "pr",
   "prConcurrentLimit": 10,
