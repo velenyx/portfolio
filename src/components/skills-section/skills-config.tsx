@@ -71,8 +71,14 @@ export const skillsConfig: SkillsConfig[] = [
     section: 'General',
     skills: [
       {
-        name: 'Git-GitFlow',
+        name: 'Git',
         favorite: true,
+      },
+      {
+        name: 'GitFlow',
+      },
+      {
+        name: 'Trunk Based',
       },
       {
         name: 'Jira',
