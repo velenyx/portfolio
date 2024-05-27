@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
 
-import { BackgroundAnimation, Footer, Header } from '@/components';
-
 import { ThemeProvider } from '@/app/providers';
 
 import './styles/globals.css';
@@ -10,7 +8,7 @@ import './styles/globals.css';
 const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' });
 
 export const metadata: Metadata = {
-  title: 'Home - Dmitriy Sivritkin',
+  title: 'Страница',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -27,12 +25,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
-          <main className='w-full max-w-prose flex-auto px-4 pt-20'>
-            {children}
-            <BackgroundAnimation />
-          </main>
-          <Footer />
+          {/*  <Header />*/}
+          {/*<main className='w-full max-w-prose flex-auto px-4 pt-20'>*/}
+          {children}
+          {/*<BackgroundAnimation />*/}
+          {/*</main>*/}
+          {/*<Footer />*/}
         </ThemeProvider>
       </body>
     </html>
