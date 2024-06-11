@@ -16072,12 +16072,12 @@ __metadata:
   linkType: hard
 
 "react-parallax-tilt@npm:^1.7.177":
-  version: 1.7.177
-  resolution: "react-parallax-tilt@npm:1.7.177"
+  version: 1.7.228
+  resolution: "react-parallax-tilt@npm:1.7.228"
   peerDependencies:
     react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 6a0d730bd2af798ebb3e369b3b230a59597d5fe02bbc128d4af08acd6a73787be4c32a8ab350a1fd4f04754edc80729bc9364f0012ea74acff0d3ab9dee45000
+  checksum: d0072e4c50f23c104adabc35108b261b07c170aff633f312f33cb493c09bed11076ecb749d0216f4251e295a591496702e8c0c8474f4c5ddeba1b2ce58a6c350
   languageName: node
   linkType: hard
 
