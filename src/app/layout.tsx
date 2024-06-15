@@ -3,6 +3,7 @@ import { Space_Grotesk as FontSans } from "next/font/google";
 
 import "./globals.css";
 import { cn } from "@/shared/lib/utils";
+import { ThemeProvider } from "@/app/providers/theme";
 
 const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -49,7 +50,14 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
