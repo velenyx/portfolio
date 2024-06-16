@@ -16,7 +16,7 @@ const CURRENT_STACK = [
   { icon: SiReact },
   { icon: SiNextdotjs },
   { icon: SiNodedotjs },
-];
+] as const;
 
 export const Hero = () => {
   return (
