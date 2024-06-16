@@ -1,6 +1,8 @@
 import { SiGithub, SiLinkedin, SiTelegram } from "react-icons/si";
 import Link from "next/link";
 
+import { cn } from "@/shared/lib/utils";
+
 const SOCIALS = [
   {
     link: "https://www.linkedin.com/in/velenyx-sivritkin/",
@@ -19,9 +21,14 @@ const SOCIALS = [
   },
 ];
 
-export const Navbar = () => {
+export const Navbar = ({ className }: { className?: string }) => {
   return (
-    <nav className="animate-move-down flex items-center justify-between py-10">
+    <nav
+      className={cn(
+        "animate-move-down flex items-center justify-between py-10",
+        className,
+      )}
+    >
       <h1 className="-rotate-2 text-2xl font-bold underline decoration-orange-300 underline-offset-8">
         velenyx 😸
       </h1>

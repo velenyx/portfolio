@@ -1,3 +1,4 @@
+import { Footer } from "./_components/footer";
 import { Hero } from "./_components/hero";
 import { Navbar } from "./_components/navbar";
 import { Projects } from "./_components/projects";
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="mx-auto mt-20 max-w-7xl p-5">
         <Projects />
         <Skills />
+        <Footer />
       </div>
     </main>
   );
