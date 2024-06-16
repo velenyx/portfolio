@@ -22,13 +22,13 @@ export const Hero = () => {
   return (
     <div className="animate-move-up flex min-h-[60vh] flex-col items-center justify-between gap-14 lg:flex-row lg:gap-0">
       <div className="space-y-10 text-center lg:text-left">
-        <h1 className="text-4xl font-bold lg:text-7xl">
+        <h2 className="text-4xl font-bold lg:text-7xl">
           Nice to meet you! 👋
           <br />
           <span className="underline decoration-orange-300 underline-offset-8">
             I&apos;m Dmitriy.
           </span>
-        </h1>
+        </h2>
 
         <p className="text-lg text-gray-300 md:w-96">
           I&apos;m a frontend developer and software engineer passionate about
@@ -52,9 +52,9 @@ export const Hero = () => {
               </div>
 
               <div className="mb-4 flex items-end justify-center gap-1">
-                <h1 className="relative z-50 text-xl font-bold text-white">
+                <p className="relative z-50 text-xl font-bold text-white">
                   I work @
-                </h1>
+                </p>
                 <Link href="https://nice-bets.ru">
                   <span className="text-2xl font-bold text-white transition-colors hover:text-yellow-500">
                     nice-bets

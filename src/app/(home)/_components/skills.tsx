@@ -32,7 +32,7 @@ const SKILLS = [
 export const Skills = () => (
   <section className="mx-auto mt-20 max-w-5xl px-8">
     <Title
-      tag="h3"
+      tag="h4"
       text="Skills 🧠"
       className="flex -rotate-6 flex-col items-center justify-center"
     />

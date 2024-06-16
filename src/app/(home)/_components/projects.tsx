@@ -58,7 +58,7 @@ const PROJECTS = [
 export const Projects = () => (
   <section className="p-5 py-10 sm:p-0">
     <Title
-      tag="h2"
+      tag="h3"
       text="Projects 📦"
       className="flex rotate-6 flex-col items-center justify-center"
     />
@@ -71,7 +71,7 @@ export const Projects = () => (
               className="w-full cursor-pointer space-y-5"
             >
               <div className="space-y-5 rounded-xl bg-black p-5">
-                <h1 className="text-2xl font-bold">{project.title}</h1>
+                <p className="text-2xl font-bold">{project.title}</p>
                 <div className="flex items-center gap-5">
                   {project.tech.map((Icon, index) => (
                     <Icon key={index} className="h-8 w-8" />
