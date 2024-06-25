@@ -2,7 +2,6 @@ import React from "react";
 import {
   SiAstro,
   SiGo,
-  SiNestjs,
   SiNextdotjs,
   SiReact,
   SiReactquery,
@@ -18,13 +17,6 @@ import { cn } from "@/shared/lib/utils";
 import { Title } from "./title";
 
 const PROJECTS = [
-  {
-    title: "Teameights",
-    tech: [SiTypescript, SiReact, SiNextdotjs, SiNestjs],
-    link: "https://teameights.com",
-    cover: "/images/teameights.png",
-    background: "bg-green-500",
-  },
   {
     title: "Streamdal (Landing)",
     tech: [SiAstro, SiTailwindcss, SiReact],
