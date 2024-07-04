@@ -5,11 +5,6 @@ import { cn } from "@/shared/lib/utils";
 
 const SOCIALS = [
   {
-    link: "https://www.linkedin.com/in/velenyx-sivritkin/",
-    label: "LinkedIn",
-    Icon: SiLinkedin,
-  },
-  {
     link: "https://t.me/velenyx/",
     label: "Telegram",
     Icon: SiTelegram,

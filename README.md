@@ -1,6 +1,6 @@
 # [🐻 Velenyx's Portfolio Website!](https://velenyx.tech/)
 
-Hey there! 🚀 I'm Dmitriy, a Frontend developer. This repository is the home of my personal portfolio website, where I showcase my best work, skills, and all the cool projects I've been part of. Dive in and explore what I'm all about! 
+Hey there! 🚀 I'm a Frontend developer. This repository is the home of my personal portfolio website, where I showcase my best work, skills, and all the cool projects I've been part of. Dive in and explore what I'm all about! 
 
 [![Portfolio](./.github/assets/screenshot.png)](https://velenyx.tech/)
 

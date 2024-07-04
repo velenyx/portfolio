@@ -10,19 +10,19 @@ const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
   metadataBase: new URL("https://velenyx.tech"),
 
-  title: "Dmitriy Sivritkin - Frontend developer",
+  title: "Velenyx - Frontend developer",
   authors: {
-    name: "Dmitriy Sivritkin",
+    name: "Velenyx",
   },
 
   description:
     "I'm a software engineer passionate about building a modern web application that users love 🏗️",
   openGraph: {
-    title: "Dmitriy Sivritkin - Frontend developer",
+    title: "Velenyx - Frontend developer",
     description:
       "I'm a software engineer passionate about building a modern web application that users love 🏗️",
     url: "https://velenyx.tech",
-    siteName: "Dmitriy Sivritkin",
+    siteName: "Velenyx",
     images: "/og.png",
     type: "website",
   },
