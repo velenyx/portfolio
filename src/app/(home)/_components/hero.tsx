@@ -24,10 +24,6 @@ export const Hero = () => {
       <div className="space-y-10 text-center lg:text-left">
         <h2 className="text-4xl font-bold lg:text-7xl">
           Nice to meet you! 👋
-          <br />
-          <span className="underline decoration-orange-300 underline-offset-8">
-            I&apos;m Dmitriy.
-          </span>
         </h2>
 
         <p className="text-lg text-gray-300 md:w-96">
